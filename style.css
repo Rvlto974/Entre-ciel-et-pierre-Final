@@ -204,4 +204,70 @@ a:hover{
     }
     /*Fin Burger*/
 
+/*HERO*/
 
+.hero {
+    background: #fafafa;
+    color: #000;
+    padding: 1rem 0 0 0;
+    }
+    
+    .hero .title {
+        color: inherit;
+        font-size: 4rem;
+        margin:1.6rem 0 0 0;
+    }
+    
+    .hero-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    }
+    
+    .hero-item span{
+        text-transform: uppercase;
+    }
+    
+    @media screen and (max-width:749px) {
+        .hero-item .left{
+            order:2;
+        }
+        .hero-item .right{
+            order:1;
+        }  
+    }
+    @media screen and (max-width:750px) {
+        .hero-item{
+            flex:1 0 50%;
+            
+            text-align: left;
+        }
+        
+        .hero-title .left{
+            align-items: flex-start;
+        }
+    
+        hero .title{
+            font-size:5rem ;
+        }
+        .hero-avatar img{
+            max-width: 400px;
+            border-radius: 2%;
+        }
+    }
+
+    .about .section-title{
+        padding-top: 2.8rem;
+    }
+    
+    @media screen and (max-width:750px) {
+        .about img{
+            padding-right: 3rem;
+        } 
+    }
+
+/*Fin Hero/*
+
+/*Début acitivités/*
