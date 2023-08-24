@@ -330,9 +330,9 @@ text-align: center;
     display: flex;
 }
 
-/*Fin Acitivités/*
+/*Fin Acitivités*/
 
-/*Début section*/      
+/*Début section*/    
 
 .section-contact{
     padding-bottom: 100px;
@@ -422,4 +422,71 @@ border: 3px solid #fff;
     }
 }
 
-/*Fin section contact/*
+/*Fin section contact*/
+
+/*Début Footer*/
+
+footer {
+    background: #57799b;
+    height: auto;
+    color: #fff;
+
+    width: 100vw;
+    font-family: 'Open Sans';
+    padding-left: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+
+    list-style: none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+    
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i{
+color: aqua;
+} 
+
+/*FIN FOOTER*/
